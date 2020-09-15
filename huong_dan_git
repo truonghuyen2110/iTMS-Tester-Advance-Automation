@@ -1,0 +1,16 @@
+1. kiểm tra xem dang o branh
+git branch
+2. muốn chuyển sang branch khác
+git checkout [branch name]
+3. kiem tra trang thai cac file
+git status
+4. them cac file minh muon commit lên 
+git add --a [đường dẫn đến file]
+ví dụ : git add --a huyentt.txt
+5. commit lên branch local 
+git commit -m "huyen"
+
+6. pull code về trươc
+git pull origin master
+7. push code len
+git push origin master
