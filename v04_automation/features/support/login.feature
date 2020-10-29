@@ -7,3 +7,7 @@ Feature: Login function
     Scenario: Login valid testcase
         When enter username and password
         Then display dashboard page
+        @invalid
+    Scenario: Login invalid testcase
+        When enter username and password
+        Then display message "Tên đăng nhập hoặc Mật khẩu không chính xác, Xin vui lòng thử lại"
